@@ -2,6 +2,9 @@
 # Readme for php-typogrify
 ==============================================
 by Hamish Macpherson (http://hamstu.com)
+ported to Expanse by Ryan Miglavs
+maintained by Ian Tearle
+
 
 # What is it?
 ----------------------------------------------
@@ -23,18 +26,14 @@ It's a port of the original 'typogrify' Python code by Christian Metts.
 
 # Install
 ----------------------------------------------
-IN WORDPRESS:
-    Works for sure on WP 2.0+ (probably 1.5 too, but I haven't tested)
-    Just copy the php-typogrify folder into 'wp-content/plugins/' 
-    then enable it in the admin menu.
-
-OTHER:
-    Just include() or require() php-typogrify.php in in your PHP code. 
-    See usage below for more info.
+IN EXPANSE:
+    Works for sure on Expanse 1.4
+    Just copy the php-typogrify folder into 'expanse/plugins/' 
+    then enable it in the admin plugins menu.
 
 # Usage
 ----------------------------------------------
-IN WORDPRESS:
+IN EXPANSE:
     php-typogrify works automagically, so you usually won't need to do anything more 
     than enable the plugin.
 
